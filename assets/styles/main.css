@@ -1,0 +1,133 @@
+/*index*/
+body {
+	background-color:#eee;
+	background-image: url("bg2.jpg");
+	margin:0px;
+	padding:0px;
+	}
+						
+p{
+	font-size:18px;
+	padding:10px;
+	margin:3px;
+	color:black;
+}
+
+a{
+	font-size:20px;
+}
+
+#kotak{
+	height: 720px;
+	background-color: #fff;
+	background-image: url("../images/bg2.jpg");
+	background-size: cover;
+	padding: 0px;
+	
+}
+
+.ungg-foto{
+	margin-right: 50px;
+	text-align: center;
+	padding: 50px;
+}
+
+.ungg-foto img{
+	border-radius: 20px;
+	width: 35%;
+	padding-bottom:50px;
+}
+
+.nav{
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.nav-bar a{	
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none;
+}
+
+.nav-bar ul{
+	display: flex;
+	font-size:20px;
+}
+
+.nav-bar ul li{
+	list-style-type: none;
+	margin-left: 50px;
+}
+
+.nav-bar ul li a{
+	color:#3E4658;
+	
+}
+
+.nav-bar ul li a:hover{
+	color:#bcbd8;
+}
+
+.nav-list{
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-list li {
+  padding: 0 20px;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list a{
+	text-decoration: none;
+	color: #795a45;
+	font-size: 20px;
+	font-family: "Arial";
+}
+
+.nav-list a:hover{
+	text-decoration: underline;
+}
+
+.kontak{
+	padding: 100px;
+	text-align: center;
+}
+
+.kontak a{
+	background: #777;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 10px;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#kotak2-left{
+	float:left;
+	color: #3E4658;
+	font-family: 'Merriweather', serif;
+	margin-top: 50px;
+	font-size: 1.3rem;
+	width:30%;
+	text-align:left;
+	margin-left:80px;
+}
+#kotak2-right{
+	float:right;
+	margin-left: px;
+	margin-right: 50px;
+}
+
+#kotak2-right img{
+	width:450px;
+	height
+	margin-left: 95px;
+	margin-right: 300px;
+}
